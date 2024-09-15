@@ -4,6 +4,7 @@ DELETE FROM students WHERE `_Roll_no` = 3;
 
 INSERT INTO students VALUES (3, "Rajesh", 400, 4);
 
+--Program (Logical Operators, Order by, Group by, Having):
 SELECT *
 FROM students
 WHERE
@@ -16,4 +17,5 @@ SELECT `_Class`, COUNT(*) As Total_Students
 FROM students
 GROUP BY
     `_Class`
-HAVING COUNT(*)>1
+HAVING
+    COUNT(*) > 1

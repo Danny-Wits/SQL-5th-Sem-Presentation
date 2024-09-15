@@ -1,5 +1,6 @@
 --Program (Distinct, Between, Like, Null):
-INSERT INTO students VALUES (3, "Unknown", NULL, NULL)
+INSERT INTO students VALUES (3, "Unknown", NULL, NULL);
+SELECT * from students;
 
 SELECT DISTINCT _Class AS "Classes in Table" FROM students;
 

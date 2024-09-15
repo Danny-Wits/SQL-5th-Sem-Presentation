@@ -1,5 +1,5 @@
 SELECT * FROM students;
---Program (Select, Arithmetic, Precedence):
+--Program (Select, Arithmetic, Precedence ):
 
 SELECT
     _Name,
